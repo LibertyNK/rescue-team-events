@@ -1,0 +1,121 @@
+/* Custom style for Chat Page */
+
+main{
+	background-image: url("/assets/img/chat-bg.png");
+}
+
+header, main, footer {
+	padding-left: 240px;
+}
+
+/* Padding matches side-nav size on screen shrink, also changed max-width to 767 from 992 to match bootstrap*/
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 200px;
+	}
+}
+
+/* Top navbar */
+#logo {
+	width: 70px;
+	display: inline-block;
+}
+#logo-container {
+    height: 70px;
+    margin-bottom: 16px;
+}
+span.badge {
+	position: relative;
+	right: -5px;
+}
+
+/* Sidebar items */
+.collection .collection-item.avatar {
+	min-height: 60px;
+}
+
+ul.side-nav.fixed li.logo {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Don't hide side-nav no matter screen size */
+@media only screen and (max-width : 992px) {
+  .side-nav.fixed {
+  	width: 200px;
+    left: 0%; }
+    .side-nav.fixed.right-aligned {
+      right: 0%;
+      left: auto; } }
+
+/* Message body and bubbles */
+#message-info {
+	padding-left: 0px;
+}
+
+.msg{
+	position:relative;
+	padding:10px;
+	margin:5px;
+	color:#fff;
+	background:#075698; /* default background for browsers without gradient support */
+	/* css3 */
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
+	background:-moz-linear-gradient(#2e88c4, #075698);
+	background:-o-linear-gradient(#2e88c4, #075698);
+	background:linear-gradient(#2e88c4, #075698);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+
+.msg-body-left:after {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  left:20px; /* controls horizontal position */
+  border-width:20px 30px 0 0; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#075698 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+.msg-body-right:after {
+  content:"";
+  position:absolute;
+  bottom:-20px; /* value = - border-top-width - border-bottom-width */
+  right:20px; /* controls horizontal position */
+  border-width:20px 0 0 30px; /* vary these values to change the angle of the vertex */
+  border-style:solid;
+  border-color:#075698 transparent;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+}
+
+/* Chip element */
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #E4E4E4; }
+  .chip img {
+    float: left;
+    margin: 0 8px 0 -12px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%; }
+  .chip i.material-icons {
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 8px; }

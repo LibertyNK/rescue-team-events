@@ -1,0 +1,74 @@
+#topper {
+    background-color: #dd3928;
+    color: white;
+    padding: 30px 0;
+}
+
+#team_stats {
+    margin-top: 30px;
+}
+
+#team_name h1 {
+    margin: 0 0 0 0;
+    font-size: 50px;
+
+}
+
+.stat_box {
+    display: inline-block;
+    padding: 1.4% 2%;
+    vertical-align: top;
+    width: 22%;
+}
+
+    .stat_box p {
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 0;
+        color: rgb(247, 182, 182);
+
+    }
+    .stat_box h1 {
+        text-align: right;
+        margin: 5px 0;
+        font-size: 40px;
+    }
+
+.stat_divider {
+    background-color: white;
+    height: 100px;
+    width: 8px;
+    display: inline-block;
+}
+
+#members {
+    padding-top: 40px;
+}
+
+.member{
+    display: inline-block;
+    margin: 20px 3% 0 3%;
+    min-width: 250px;
+    min-height: 306px;
+    vertical-align: top;
+}
+
+    .shown_info img {
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        box-shadow: 0px 0px 25px -1px rgba(75, 75, 75, 0.82);
+
+    }
+
+    .hidden_info {
+        display: none;
+    }
+
+    .hidden_info table {
+        text-align: left;
+    }
+
+    .hidden_info table tr td {
+        padding: 5px 10px;
+    }
