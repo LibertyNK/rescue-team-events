@@ -49,37 +49,37 @@ RescueCentral
 - Unzip htaccess.zip folder included in project root directory. This creates a hidden .htaccess file which allows PHP routes to work properly.
 
 - Setup LAMP
-
-> sudo apt-get install lamp-server^
+```
+sudo apt-get install lamp-server^
+```
 
 - Setup MySQL
-
-> mysql -u root -p password
+```
+mysql -u root -p password
+```
 
 - In MySQL
-
-> CREATE DATABASE link
+```
+CREATE DATABASE link
+```
 
 - Import the provided SQL script dmp to setup the rest of the tables (you could setup the tables manually, but highly recommended to use the SQL script provided)
 - (Highly recommended) Install project in /var/www/html
 - Install CodeIgniter
 - Enable Apache rewire library
-
-> sudo a2enmod rewrite
-
-> sudo service apache2 restart
+```
+sudo a2enmod rewrite
+sudo service apache2 restart
+```
 
 - Modify /etc/apache2/apache2.conf to allow .htaccess, look for this block of code:
-
-> <Directory /var/www/>
-
-> Options Indexes FollowSymLinks
-
-> AllowOverride None
-
-> Require all granted
-
-> </Directory>
+```
+<Directory /var/www/>
+  Options Indexes FollowSymLinks
+  AllowOverride None
+  Require all granted
+</Directory>
+```
 
 - Change "AllowOverride None" to "AllowOverride All"
 
