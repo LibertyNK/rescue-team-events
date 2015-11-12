@@ -17,7 +17,7 @@ This project utilizes the following:
 - jQuery 1.11
 - Bootstrap 3
 
-Original dev team: [Lan](https://github.com/lannng), [Jalal](https://github.com/JalalBeauchman), [Vincent](https://github.com/), [Ani](https://github.com/), and [Isaac](https://github.com/ilee).
+Original dev team: [Lan](https://github.com/lannng), [Jalal](https://github.com/JalalBeauchman), [Vincent](https://github.com/vt01uk), [Ani](https://github.com/), and [Isaac](https://github.com/ilee).
 
 
 ## Planned To-Dos
