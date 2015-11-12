@@ -1,9 +1,8 @@
-
-# We_Need_A_Good_Project_Name
+# Link Communicator
 
 This README Last Updated: 2015/10/26
 
-Project_name is an open-source web application originally developed by Coding Dojo students in conjunction with Liberty in North Korea (LINK) organization to provide an online web platform to coordinate LINK’s rescue teams spread throughout the world. Please read the [contribution guidelines](contributing.md) for more information on how to contribute to this repository.
+Link Communicator is an open-source web application originally developed by Coding Dojo students in conjunction with Liberty in North Korea (LINK) organization to provide an online web platform to coordinate LINK’s rescue teams spread throughout the world. Please read the [contribution guidelines](contributing.md) for more information on how to contribute to this repository.
 
 
 <img src="readme-banner.png" align="center" width="75%" height="75%" />
