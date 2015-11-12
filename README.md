@@ -1,6 +1,6 @@
 # Link Communicator
 
-This README Last Updated: 2015/10/26
+This README Last Updated: 2015/11/11
 
 Link Communicator is an open-source web application originally developed by Coding Dojo students in conjunction with Liberty in North Korea (LINK) organization to provide an online web platform to coordinate LINK’s rescue teams spread throughout the world. Please read the [contribution guidelines](contributing.md) for more information on how to contribute to this repository.
 
@@ -18,9 +18,9 @@ This project utilizes the following:
 - Bootstrap 3
 
 
-## Planned To-Dos (original dev team is planning on doing most of these)
+## Planned To-Dos
 
-- Port to Rails
+- Port from PHP to Rails
 - Make more mobile-friendly
 - Fix mobile navigation (on screen shrink) - shift mobile menu to right
 - Revamp chat/messaging application
